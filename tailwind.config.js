@@ -5,7 +5,17 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: ["ui-sans-serif", "system-ui"],
+      kaushan: ["Kaushan Script"],
+    },
+    extend: {
+      colors: {
+        green: {
+          DEFAULT: '#0a2e3b',
+        }
+      }
+    },
   },
   plugins: [],
 }
