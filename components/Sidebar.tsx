@@ -2,6 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Sidebar = () => {
     const { theme, setTheme } = useTheme();
@@ -15,9 +16,19 @@ const Sidebar = () => {
     }
     return (
         <div className="text-center">
-            <img src="https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png" alt="sohagraha" className="mx-auto rounded-full "
+            {/* <img alt="sohagraha" className="mx-auto rounded-full "
                 height="128px"
-                width="128px" />
+                width="128px" /> */}
+
+            <Image
+                src="https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png"
+                alt="avatar"
+                className="mx-auto border rounded-full "
+                height="128px"
+                width="128px"
+                layout="intrinsic"
+                quality="100"
+            />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
                 <span className='text-green dark:text-white'>
                     Sohag
@@ -30,7 +41,7 @@ const Sidebar = () => {
             {/* Resume */}
             <a
                 href=""
-                download=""
+                download="Sohag Raha - Web Developer Resume.pdf"
                 className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer"
             >
                 <GiTie className="w-6 h-6" />

@@ -101,18 +101,20 @@ export const tools: ISkill[] = [
 
 export const projects: IProject[] = [
     {
-        name: "COVID Tracker",
+        id: 1,
+        name: "COVID Tracker1",
         description:
             "This app shows a statistical view about corona virus over the world",
-        image_path: "/images/covid.jpg",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
         github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
         category: ["react"],
         key_techs: ["React", "Chart.js", "Material UI"],
     },
     {
-        name: "Algorithm Visualizer",
-        image_path: "/images/algoVisual.png",
+        id: 2,
+        name: "Algorithm Visualizer2",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://visual-algorithm.web.app/",
         github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
         category: ["react"],
@@ -122,8 +124,9 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Dev Talks",
-        image_path: "/images/dev.jpg",
+        id: 3,
+        name: "Dev Talks3",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://dev-talks.herokuapp.com/",
         github_url: "https://github.com/Dey-Sumit/Dev-talks",
         category: ["node", "mongo", "react"],
@@ -141,8 +144,9 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Realtime Chat App",
-        image_path: "/images/chatapp.jpg",
+        id: 4,
+        name: "Realtime Chat App4",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://sumit-chat.netlify.app/",
         github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
         category: ["node", "react"],
@@ -152,8 +156,9 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Tweeter Clone",
-        image_path: "/images/tweetme.jpg",
+        id: 5,
+        name: "Tweeter Clone5",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
         github_url: "https://github.com/Dey-Sumit/tweetme",
         category: ["django", "react"],
@@ -163,8 +168,9 @@ export const projects: IProject[] = [
     },
 
     {
-        name: "Color Classification using tf.js",
-        image_path: "/images/color.jpg",
+        id: 6,
+        name: "Color Classification using tf.js6",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "!#",
         github_url: "https://github.com/Dey-Sumit/color-classification",
         category: ["express"],
@@ -173,8 +179,9 @@ export const projects: IProject[] = [
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
     },
     {
-        name: "YouTube using YouTube ",
-        image_path: "/images/youtubeClone.png",
+        id: 7,
+        name: "YouTube using YouTube 7",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://not-utube.web.app/",
         github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
         category: ["express"],
@@ -190,8 +197,9 @@ export const projects: IProject[] = [
         ],
     },
     {
-        name: "Football App",
-        image_path: "/images/football.png",
+        id: 8,
+        name: "Football App8",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://o-my-goal.web.app/",
         github_url: "https://github.com/Dey-Sumit/football-app",
         category: ["react"],
