@@ -41,7 +41,7 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
 
             <div id="view">
                 {showDetail === id && (
-                    <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 rounded-lg text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+                    <div className="fixed top-0 left-0 z-10 grid w-full h-full p-2 md:p-10 rounded-lg text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
                         <motion.div
                             variants={stagger}
                             initial="initial"

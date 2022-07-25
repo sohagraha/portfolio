@@ -6,7 +6,7 @@ import { fadeInUp, routeAnimation, stagger } from '../animation';
 
 const index = () => {
   return (
-    <motion.div className="flex flex-col flex-grow px-6 pt-1 "
+    <motion.div className="flex flex-col flex-grow px-6 pt-1 h-fit"
       variants={routeAnimation}
       initial="initial"
       animate="animate"
@@ -16,10 +16,9 @@ const index = () => {
         I am a full stack web developer with a passion for building beautiful, responsive websites. I have a background in web development and have worked with many different languages and frameworks. I have a strong passion for learning new technologies and constantly learning new things. I am always looking to learn new things and improve my skills.
       </h6>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-300 dark:bg-black "
-        style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
+        className="p-4 mt-5 bg-gray-300 dark:bg-black rounded-xl"
       >
-        <h4 className="my-3 text-xl font-semibold tracking-wide dark:text-white">
+        <h4 className="text-xl font-semibold tracking-wide dark:text-white">
           What I am doing
         </h4>
       </div>

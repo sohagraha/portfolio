@@ -61,6 +61,21 @@ export const languages: ISkill[] = [
     },
     {
         Icon: BsCircleFill,
+        name: "Python",
+        level: "45",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "Java Script",
+        level: "60",
+    },
+    {
+        Icon: BsCircleFill,
+        name: "React Native",
+        level: "80",
+    },
+    {
+        Icon: BsCircleFill,
         name: "React",
         level: "70",
     },
@@ -198,6 +213,39 @@ export const projects: IProject[] = [
     },
     {
         id: 8,
+        name: "Football App8",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
+        deployed_url: "https://o-my-goal.web.app/",
+        github_url: "https://github.com/Dey-Sumit/football-app",
+        category: ["react"],
+        description:
+            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    },
+    {
+        id: 9,
+        name: "Football App8",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
+        deployed_url: "https://o-my-goal.web.app/",
+        github_url: "https://github.com/Dey-Sumit/football-app",
+        category: ["react"],
+        description:
+            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    },
+    {
+        id: 10,
+        name: "Football App8",
+        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
+        deployed_url: "https://o-my-goal.web.app/",
+        github_url: "https://github.com/Dey-Sumit/football-app",
+        category: ["react"],
+        description:
+            "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
+        key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+    },
+    {
+        id: 11,
         name: "Football App8",
         image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://o-my-goal.web.app/",

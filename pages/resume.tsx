@@ -5,7 +5,8 @@ import { fadeInUp, routeAnimation } from "../animation";
 
 const resume = () => {
     return (
-        <motion.div className="px-6 py-2"
+        // <motion.div className="px-5  h-fit" style={{ maxHeight: "100vh" }}
+        <motion.div className="px-6 py-2 overflow-y-scroll"
             variants={routeAnimation}
             initial="initial"
             animate="animate"
@@ -46,7 +47,7 @@ const resume = () => {
             <div className="grid gap-9 md:grid-cols-1 dark:text-white">
                 <div className="">
                     <h5 className="my-3 text-2xl font-bold">Language & Framework</h5>
-                    <div className="grid my-2 gap-x-2 md:grid-cols-2 xl:grid-cols-3">
+                    <div className="grid my-2 gap-x-2 md:grid-cols-2 xl:grid-cols-2">
                         {languages.map((language, i) => (
                             <Bar value={language} key={i} />
                         ))}
@@ -55,7 +56,7 @@ const resume = () => {
 
                 <div>
                     <h5 className="my-3 text-2xl font-bold">Tools & Softwares</h5>
-                    <div className="grid gap-x-2 md:grid-cols-2 xl:grid-cols-3">
+                    <div className="grid gap-x-2 md:grid-cols-2 xl:grid-cols-2">
                         {tools.map((tool, i) => (
                             <Bar value={tool} key={i} />
                         ))}
