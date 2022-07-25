@@ -12,7 +12,9 @@ module.exports = {
     },
     boxShadow: {
       "custom-light": " 0 0 10px #313131",
-      "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
+      "custom-dark": '0 10px 15px -3px rgba(255, 255, 255, 0.1), 0 4px 6px -2px rgba(255, 255, 255, 0.05)',
+      none: 'none',
+      none: 'none',
     },
 
     extend: {
