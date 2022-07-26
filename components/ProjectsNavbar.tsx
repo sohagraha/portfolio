@@ -21,12 +21,14 @@ const ProjectsNavbar: FunctionComponent<{
     active: string;
 }> = (props) => {
     return (
-        <div className="">
-            <div className="flex justify-center py-2 space-x-3 overflow-auto list-none bg-gray-200 dark:text-white dark:bg-slate-800 rounded-2xl">
+        <div className="overflow-x-scroll">
+            <div className="flex justify-center px-2 py-2 space-x-3 list-none bg-gray-200 w-fit dark:text-white dark:bg-slate-800">
                 <NavItem value="all" {...props} />
                 <NavItem value="react" {...props} />
                 <NavItem value="mongo" {...props} />
                 <NavItem value="django" {...props} />
+                <NavItem value="node" {...props} />
+                <NavItem value="node" {...props} />
                 <NavItem value="node" {...props} />
             </div>
         </div>

@@ -22,4 +22,5 @@ export interface IProject {
     key_techs: string[];
 }
 
-export type Category = "react" | "node" | "express" | "django" | "mongo";
+
+export type Category = "react" | "node" | "express" | "django" | "mongo" | "Redux" | "Firebase Auth" | "API" | "Sass";
