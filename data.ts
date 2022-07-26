@@ -250,7 +250,7 @@ export const projects: IProject[] = [
         image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://o-my-goal.web.app/",
         github_url: "https://github.com/Dey-Sumit/football-app",
-        category: ["react"],
+        category: ["react", "Redux", "Firebase Auth", "API", "Sass"],
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
