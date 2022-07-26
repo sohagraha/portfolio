@@ -31,7 +31,7 @@ const Sidebar = () => {
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
                 <span className='text-green dark:text-white'>
-                    Sohag.
+                    Sohag
                 </span>
                 Raha
             </h3>
