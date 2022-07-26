@@ -15,7 +15,7 @@ const NavItem: FunctionComponent<{
             }}>{name}</a>
         </Link>
     ) : <Link href={route}>
-        <a className="text-xl px-2 text-green-600" onClick={() => {
+        <a className="px-2 text-xl text-green-600" onClick={() => {
             setActiveItem(name)
         }}>{name}</a>
     </Link>
@@ -39,9 +39,9 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="flex justify-between px-5 mx-2 py-3 my-2 bg-gray-200 rounded-2xl dark:bg-slate-800">
+        <div className="flex justify-between px-5 py-3 mx-2 my-2 bg-gray-200 rounded-2xl dark:bg-slate-800">
             <div>
-                <span className="font-bold text-xl text-green-600 border-b-4 border-green-600">{activeItem}</span>
+                <span className="hidden text-xl font-bold text-green-600 border-b-4 border-green-600 lg:block">{activeItem}</span>
             </div>
             <div className="font-bold">
                 <NavItem activeItem={activeItem} setActiveItem={setActiveItem} name="About" route="/" />

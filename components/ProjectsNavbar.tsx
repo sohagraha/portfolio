@@ -21,8 +21,8 @@ const ProjectsNavbar: FunctionComponent<{
     active: string;
 }> = (props) => {
     return (
-        <div className="overflow-x-scroll">
-            <div className="flex justify-center px-2 py-2 space-x-3 list-none bg-gray-200 w-fit dark:text-white dark:bg-slate-800">
+        <div className="flex w-full overflow-x-scroll bg-gray-200 dark:text-white dark:bg-slate-800 rounded-xl">
+            <div className="flex justify-center px-2 py-2 space-x-3 list-none bg-gray-200 w-max dark:text-white dark:bg-slate-800">
                 <NavItem value="all" {...props} />
                 <NavItem value="react" {...props} />
                 <NavItem value="mongo" {...props} />
