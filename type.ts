@@ -20,7 +20,8 @@ export interface IProject {
     github_url: string;
     category: Category[];
     key_techs: string[];
+    status: "complete" | "in-progress" | "coming-soon";
 }
 
 
-export type Category = "react" | "node" | "express" | "django" | "mongo" | "Redux" | "Firebase Auth" | "API" | "Sass";
+export type Category = "react" | "node" | "express" | "django" | "mongo" | "Redux" | "Firebase Auth" | "JavaScript";

@@ -5,6 +5,6 @@
 
 module.exports = {
   images: {
-    domains: ["www.pngmart.com"],
+    domains: ["www.pngmart.com", "i.ibb.co"],
   },
 };

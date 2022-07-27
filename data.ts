@@ -117,57 +117,57 @@ export const tools: ISkill[] = [
 export const projects: IProject[] = [
     {
         id: 1,
-        name: "COVID Tracker1",
+        name: "RGB Color Generator Pro",
         description:
-            "This app shows a statistical view about corona virus over the world",
-        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
-        deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-        github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-        category: ["react"],
-        key_techs: ["React", "Chart.js", "Material UI"],
+            "This Project made with pure javascript. Here user can generate random color and save it in local storage. User can make custom color by using RGB color slider. At a time user can copy the hex form or RGB form of a color. User add Color on Custom Color option. Preset Color contains some collection of a color anyone can easily get the color code by clicking on particular color. User can also reset the color from Custom Color option. User can set background image and customize the image using the site. Sweet alert is used for alerting the user which color code is copied on clipboard. ",
+        image_path: "https://i.ibb.co/bsy88T1/Color-Generator-1.jpg",
+        deployed_url: "https://color-generator-pro-sr.netlify.app/",
+        github_url: "https://github.com/sohagraha/Dom-Projects/tree/main/3.%20RGB%20Color%20Generator%20pro%20v3.0",
+        category: ["JavaScript"],
+        key_techs: ["HTML", "CSS", "Javascript"],
+        status: "complete",
     },
     {
         id: 2,
-        name: "Algorithm Visualizer2",
-        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
-        deployed_url: "https://visual-algorithm.web.app/",
-        github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-        category: ["react"],
+        name: "Random Quote Generator",
+        image_path: "https://i.ibb.co/ng8ngXy/Random-Quote-Generator.jpg",
+        deployed_url: "https://app.netlify.com/sites/random-quote-generator-sr",
+        github_url: "https://github.com/sohagraha/Dom-Projects/tree/main/4.%20Random%20Quotes%20Generator",
+        category: ["JavaScript"],
         description:
-            "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-        key_techs: ["React", "firebase", "Framer Motion"],
+            "A application made with vanilla javascript. This application will generate random quote when any user click on new Quote button.",
+        key_techs: ["HTML", "CSS", "Javascript"],
+        status: "complete",
     },
 
     {
         id: 3,
-        name: "Dev Talks3",
-        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
-        deployed_url: "https://dev-talks.herokuapp.com/",
-        github_url: "https://github.com/Dey-Sumit/Dev-talks",
-        category: ["node", "mongo", "react"],
+        name: "Counter app with custom Increment and Decrement Feature",
+        image_path: "https://i.ibb.co/hYgY49h/counter-app.jpg",
+        deployed_url: "https://counter-app-sr.netlify.app/",
+        github_url: "https://github.com/sohagraha/Dom-Projects/tree/main/6.%20Counter%20Application",
+        category: ["JavaScript"],
         description:
-            "Social Media app for developers who can share project,create posts,etc...",
+            "In this application I made two field for input value which indicate the increment and decrement value.Here I use vanilla javascript to make this application. By clicking on increment button the value of the field will increase by the value of increment field. By clicking on decrement button the value of the field will decrease by the value of decrement field.",
         key_techs: [
-            "React",
-            "Redux",
-            "Node",
-            "Express",
-            "Mongo",
-            "REST API",
-            "Bootstrap",
+            "HTML",
+            "CSS",
+            "Javascript",
         ],
+        status: "complete",
     },
 
     {
         id: 4,
-        name: "Realtime Chat App4",
-        image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
-        deployed_url: "https://sumit-chat.netlify.app/",
-        github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-        category: ["node", "react"],
+        name: "Multiple Converter",
+        image_path: "https://i.ibb.co/vxvZ1NH/multiple-converter.jpg",
+        deployed_url: "https://multiple-converter-sr.netlify.app/",
+        github_url: "https://github.com/sohagraha/Dom-Projects/tree/main/6.%20Counter%20Application",
+        category: ["JavaScript"],
         description:
-            "Basic Realtime Chat App where one can create a room can talk to each other",
-        key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
+            "This application is made with vanilla javascript. This application will convert any number into different unit. User can select the unit and get the result. This is made for testing purpose and practice purpose. Here some unit are missing but I will add them soon.",
+        key_techs: ["HTML", "CSS", "Javascript"],
+        status: "complete",
     },
 
     {
@@ -180,6 +180,7 @@ export const projects: IProject[] = [
         description:
             "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
         key_techs: ["React", "Django", "Django REST API"],
+        status: "complete",
     },
 
     {
@@ -192,6 +193,7 @@ export const projects: IProject[] = [
         description:
             "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
         key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
+        status: "complete",
     },
     {
         id: 7,
@@ -210,6 +212,7 @@ export const projects: IProject[] = [
             "Sass",
             "Bootstrap",
         ],
+        status: "complete",
     },
     {
         id: 8,
@@ -221,6 +224,7 @@ export const projects: IProject[] = [
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        status: "complete",
     },
     {
         id: 9,
@@ -232,6 +236,7 @@ export const projects: IProject[] = [
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        status: "complete",
     },
     {
         id: 10,
@@ -243,6 +248,7 @@ export const projects: IProject[] = [
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        status: "complete",
     },
     {
         id: 11,
@@ -250,9 +256,10 @@ export const projects: IProject[] = [
         image_path: "https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png",
         deployed_url: "https://o-my-goal.web.app/",
         github_url: "https://github.com/Dey-Sumit/football-app",
-        category: ["react", "Redux", "Firebase Auth", "API", "Sass"],
+        category: ["react", "Redux", "Firebase Auth"],
         description:
             "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
         key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+        status: "complete",
     },
 ];
