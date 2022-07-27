@@ -42,7 +42,7 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
 
             <div id="view">
                 {showDetail === id && (
-                    <div className="absolute top-0 left-0 z-10 grid w-full h-full p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+                    <div className="fixed top-0 left-0 z-10 grid w-full h-full min-h-screen p-2 text-black bg-gray-100 rounded-lg md:absolute md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
                         <motion.div
                             variants={stagger}
                             initial="initial"
@@ -121,12 +121,12 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
                             onClick={() => setShowDetail(null)}
                             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
                         >
-                            <MdClose size={30} />
+                            <MdClose size={30} className="text-red-600 bg-gray-300 rounded-full" />
                         </button>
                     </div>
                 )}
             </div>
-        </motion.div>
+        </motion.div >
     );
 };
 
