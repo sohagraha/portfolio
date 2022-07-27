@@ -27,17 +27,19 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
         <motion.div className="col-span-12 p-2 bg-gray-200 rounded-lg sm:col-span-6 lg:col-span-4 dark:bg-dark-200 dark:text-white"
             variants={fadeInUp}
         >
-            <Image
-                src={image_path}
-                alt={name}
-                className="cursor-pointer"
-                onClick={() => {
-                    setShowDetail(id)
-                }}
-                layout="responsive"
-                height="150"
-                width="300"
-            />
+            <div className="border-4 border-green-300 rounded-lg">
+                <Image
+                    src={image_path}
+                    alt={name}
+                    className="rounded-lg cursor-pointer"
+                    onClick={() => {
+                        setShowDetail(id)
+                    }}
+                    layout="responsive"
+                    height="150"
+                    width="300"
+                />
+            </div>
             <p className="my-2 font-bold text-center hover:text-green-500">{name}</p>
 
             <div id="view">
