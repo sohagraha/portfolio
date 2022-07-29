@@ -1,9 +1,12 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
+import { FaBeer, FaPython, FaReact, FaServer } from "react-icons/fa";
+import { TbBrandJavascript, TbBrandNextjs, TbBrandReactNative } from "react-icons/tb";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { DiNodejs } from "react-icons/di";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, IService, ISkill } from './type'
-import { BsCircleFill } from "react-icons/bs";
+import { BsBootstrapFill, BsGithub } from "react-icons/bs";
+import { SiAdobephotoshop, SiC, SiCplusplus, SiExpress, SiFigma, SiGitkraken, SiMongodb, SiNetlify, SiOracle, SiTailwindcss, SiTypescript, SiVercel } from "react-icons/si";
 
 export const services: IService[] = [
     {
@@ -45,72 +48,107 @@ export const services: IService[] = [
 
 export const languages: ISkill[] = [
     {
-        Icon: BsCircleFill,
-        name: "Python",
-        level: "45",
+        Icon: SiC,
+        name: "C",
+        level: "96",
     },
     {
-        Icon: BsCircleFill,
+        Icon: SiCplusplus,
+        name: "C++",
+        level: "88",
+    },
+    {
+        Icon: TbBrandJavascript,
         name: "Java Script",
-        level: "60",
+        level: "95",
     },
     {
-        Icon: BsCircleFill,
-        name: "React Native",
-        level: "80",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Python",
-        level: "45",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "Java Script",
-        level: "60",
-    },
-    {
-        Icon: BsCircleFill,
-        name: "React Native",
-        level: "80",
-    },
-    {
-        Icon: BsCircleFill,
+        Icon: FaReact,
         name: "React",
+        level: "92",
+    },
+    {
+        Icon: DiNodejs,
+        name: "Node js",
+        level: "88",
+    },
+    {
+        Icon: SiExpress,
+        name: "Express JS",
+        level: "82",
+    },
+    {
+        Icon: TbBrandReactNative,
+        name: "React Native",
+        level: "76",
+    },
+    {
+        Icon: TbBrandNextjs,
+        name: "Next JS",
+        level: "82",
+    },
+    {
+        Icon: SiTypescript,
+        name: "Typescript",
         level: "70",
     },
     {
-        Icon: BsCircleFill,
-        name: "Django",
-        level: "80",
+        Icon: FaPython,
+        name: "Python",
+        level: "72",
     },
     {
-        Icon: BsCircleFill,
+        Icon: SiMongodb,
+        name: "MongoDB",
+        level: "86",
+    },
+    {
+        Icon: SiOracle,
+        name: "Oracle",
+        level: "86",
+    },
+    {
+        Icon: BsBootstrapFill,
         name: "Bootstrap",
-        level: "80",
+        level: "94",
+    },
+    {
+        Icon: SiTailwindcss,
+        name: "TailWind CSS",
+        level: "90",
     },
 ];
 
 export const tools: ISkill[] = [
     {
-        Icon: BsCircleFill,
+        Icon: BsGithub,
+        name: "Github",
+        level: "94",
+    },
+    {
+        Icon: SiFigma,
         name: "Figma",
         level: "85",
     },
     {
-        Icon: BsCircleFill,
-        name: "Photoshop",
-        level: "45",
+        Icon: SiGitkraken,
+        name: "Gitkraken",
+        level: "78",
     },
     {
-        Icon: BsCircleFill,
-        name: "Illustrator",
-        level: "60",
+        Icon: SiAdobephotoshop,
+        name: "Adobe Photoshop",
+        level: "68",
     },
     {
-        Icon: BsCircleFill,
-        name: "Framer",
-        level: "45",
+        Icon: SiNetlify,
+        name: "Netlify",
+        level: "88",
+    },
+    {
+        Icon: SiVercel,
+        name: "Vercel",
+        level: "68",
     },
 ];
 

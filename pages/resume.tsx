@@ -6,7 +6,7 @@ import { fadeInUp, routeAnimation } from "../animation";
 const resume = () => {
     return (
         // <motion.div className="px-5  h-fit" style={{ maxHeight: "100vh" }}
-        <motion.div className="px-6 py-2 overflow-y-scroll"
+        <motion.div className="px-6 py-2 overflow-y-scroll h-fit" style={{ maxHeight: "100vh" }}
             variants={routeAnimation}
             initial="initial"
             animate="animate"

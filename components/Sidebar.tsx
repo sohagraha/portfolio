@@ -3,6 +3,7 @@ import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
 import Image from 'next/image';
+import Typed from 'react-typed';
 
 const Sidebar = () => {
     const { theme, setTheme } = useTheme();
@@ -36,7 +37,20 @@ const Sidebar = () => {
                 Raha
             </h3>
             <p className="px-2 py-1 my-3 bg-gray-200 rounded-full">
-                Web Developer
+                <Typed
+                    strings={[
+                        "Computer Engineer",
+                        "Web Designer",
+                        "Web Developer",
+                        "React Developer",
+                        "JavaScript Developer",
+                        "Full Stack Developer",
+                        "MERN Stack Developer",
+                    ]}
+                    typeSpeed={60}
+                    backSpeed={40}
+                    loop
+                />
             </p>
             {/* Resume */}
             <a
