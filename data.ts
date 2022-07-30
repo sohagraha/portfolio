@@ -105,7 +105,7 @@ export const languages: ISkill[] = [
     {
         Icon: SiOracle,
         name: "Oracle",
-        level: "86",
+        level: "90",
     },
     {
         Icon: BsBootstrapFill,
