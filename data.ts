@@ -148,7 +148,7 @@ export const tools: ISkill[] = [
     {
         Icon: SiVercel,
         name: "Vercel",
-        level: "68",
+        level: "80",
     },
 ];
 
