@@ -32,6 +32,10 @@ module.exports = {
         "95v": "95vh",
         "100v": "100vh",
       },
+      maxHeight: {
+        "100vh": "100vh",
+        "85vh": "85vh",
+      },
       colors: {
         green: {
           DEFAULT: "#0a2e3b",

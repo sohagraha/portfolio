@@ -31,7 +31,7 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
                 <Image
                     src={image_path}
                     alt={name}
-                    className="rounded-lg cursor-pointer"
+                    className="object-cover transition duration-500 rounded-lg cursor-pointer hover:scale-125"
                     onClick={() => {
                         setShowDetail(id)
                     }}
@@ -44,7 +44,7 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
 
             <div id="view">
                 {showDetail === id && (
-                    <div className="fixed top-0 left-0 z-10 grid w-full h-full min-h-screen p-2 text-black bg-gray-100 rounded-lg md:absolute md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+                    <div className="fixed left-0 z-10 grid w-full p-2 my-auto bg-gray-100 rounded-lg h-100v top-10 md:fixed md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
                         <motion.div
                             variants={stagger}
                             initial="initial"
@@ -57,6 +57,7 @@ const ProjectCard: FunctionComponent<{ project: IProject; showDetail: number | n
                                     <Image
                                         src={image_path}
                                         alt={name}
+                                        className="object-cover rounded-lg cursor-pointer"
                                         layout="responsive"
                                         height="150"
                                         width="300"

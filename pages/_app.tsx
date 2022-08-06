@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps, router }: AppProps) {
       <div className="col-span-12 p-4 text-base text-center bg-white h-fit dark:bg-dark-500 lg:col-span-3 rounded-2xl shadow-custom-light dark:shadow-custom-dark dark:border-t-2 dark:border-gray-600">
         <Sidebar />
       </div>
-      <div className="flex flex-col col-span-12 overflow-y-scroll bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500 dark:border-t-2 dark:border-gray-600">
+      <div className="flex flex-col col-span-12 overflow-y-scroll bg-white max-h-85vh shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500 dark:border-t-2 dark:border-gray-600">
         <Navbar />
         <Component {...pageProps} key={router.route} />
       </div>

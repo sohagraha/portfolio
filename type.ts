@@ -24,4 +24,4 @@ export interface IProject {
 }
 
 
-export type Category = "react" | "node" | "express" | "django" | "mongo" | "Redux" | "Firebase Auth" | "JavaScript";
+export type Category = "React" | "NodeJS" | "ExpressJS" | "django" | "MongoDB" | "Redux" | "Firebase" | "JavaScript" | "HTML" | "CSS" | "Tailwind CSS";
