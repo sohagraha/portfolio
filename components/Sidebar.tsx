@@ -1,4 +1,4 @@
-import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
+import { AiFillFacebook, AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { GiTie } from 'react-icons/gi';
 import { useTheme } from 'next-themes';
@@ -22,13 +22,14 @@ const Sidebar = () => {
                 width="128px" /> */}
 
             <Image
-                src="https://www.pngmart.com/files/22/User-Avatar-Profile-PNG-Isolated-Transparent-Picture.png"
+                src="https://i.ibb.co/MZTLCNB/sohagraha.jpg"
                 alt="avatar"
                 className="mx-auto border rounded-full "
                 height="128px"
                 width="128px"
                 layout="intrinsic"
                 quality="100"
+                objectFit='cover'
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan dark:text-white">
                 <span className='text-green dark:text-white'>
@@ -54,7 +55,7 @@ const Sidebar = () => {
             </p>
             {/* Resume */}
             <a
-                href=""
+                href="https://drive.google.com/uc?export=download&id=1rfX8A6iudYsFEJ5XSgYXAbcIXbmReOLK"
                 download="Sohag Raha - Web Developer Resume.pdf"
                 className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer"
             >
@@ -64,13 +65,13 @@ const Sidebar = () => {
 
             {/* Socials */}
             <div className="flex justify-around w-9/12 mx-auto my-5 text-green dark:text-white md:w-full ">
-                <a href="">
-                    <AiFillYoutube className="w-8 h-8 cursor-pointer" />
+                <a href="https://www.facebook.com/sohagrahaa">
+                    <AiFillFacebook className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="" >
+                <a href="https://www.linkedin.com/in/sohagraha/" >
                     <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
                 </a>
-                <a href="">
+                <a href="https://github.com/sohagraha">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
                 </a>
             </div>
