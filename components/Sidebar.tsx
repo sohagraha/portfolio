@@ -76,7 +76,7 @@ const Sidebar = () => {
                 </a>
             </div>
 
-            {/* Contacts */}
+            {/* Contacts Info */}
             <div
                 className="py-4 my-5 bg-gray-200 dark:text-white dark:bg-slate-900 rounded-2xl"
                 style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
