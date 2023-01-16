@@ -22,7 +22,7 @@ const Sidebar = () => {
                 width="128px" /> */}
 
             <Image
-                src="https://i.ibb.co/MZTLCNB/sohagraha.jpg"
+                src="https://i.ibb.co/c1CWSPm/Sohag-Raha.jpg"
                 alt="avatar"
                 className="mx-auto border rounded-full "
                 height="128px"
